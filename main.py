@@ -31,7 +31,7 @@ class Meeting:
 
 class Employee(AbstractEmployee, User):
   def __init__(self, username):
-    super().__init__():
+    super().__init__()
     User.__init__(self)
     self.username = username
 
